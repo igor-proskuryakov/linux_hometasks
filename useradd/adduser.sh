@@ -16,7 +16,7 @@ checkgroup()
 
 
 
-cat list.txt | while read line
+cat $1 | while read line
 do
 checkgroup $line
 done
