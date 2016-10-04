@@ -1,4 +1,4 @@
-petya friends /petyafolder $6$nO56RL23LMcYQUSs$sWXIPzlgcTKQoWqoWU7IYzNYRwztc6dqLt/dVg8N5Ow1bSJhJKERRa6Qely5l3vlS.MGN.m7.1xbp9tbNvSej1
-oleg friends /olegfolder $6$k837jK23LKlsHjsGa$sWXIPzlgcTKQoWqoWU7IYzNYRwztc6dqLt/dVg8N5Ow1bSJhJKERRa6Qely5l3vlS.MGN.m7.1xbp9tbNvSej1
-vasya workgroup /workers_vasya $6$lk981kJhgDTyWeqXSs$sWXIPzlgcTKQoWqoWU7IYzNYRwztc6dqLt/dVg8N5Ow1bSJhJKERRa6Qely5l3vlS.MGN.m7.1xbp9tbNvSej1
-fedor workgroup /workers_fedor 
+petya friends classmates,goodpeople /petyafolder $6$nO56RL23LMcYQUSs$sWXIPzlgcTKQoWqoWU7IYzNYRwztc6dqLt/dVg8N5Ow1bSJhJKERRa6Qely5l3vlS.MGN.m7.1xbp9tbNvSej1
+oleg friends workgroup,classmates /olegfolder $6$k837jK23LKlsHjsGa$sWXIPzlgcTKQoWqoWU7IYzNYRwztc6dqLt/dVg8N5Ow1bSJhJKERRa6Qely5l3vlS.MGN.m7.1xbp9tbNvSej1 
+vasya workgroup goodpeople,adults /workers_vasya $6$lk981kJhgDTyWeqXSs$sWXIPzlgcTKQoWqoWU7IYzNYRwztc6dqLt/dVg8N5Ow1bSJhJKERRa6Qely5l3vlS.MGN.m7.1xbp9tbNvSej1 /bin/bash
+fedor workgroup friends /workers_fedor none /sbin/nologin 
