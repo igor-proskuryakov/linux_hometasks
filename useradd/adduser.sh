@@ -15,12 +15,18 @@ checkgroup()
 	directory=$4
 	passw=$5
 	sh=$6
-	subgroup $subgroups
+	if [[ $subgroups != "none" ]]
+	then 
+		subgroup $subgroups
+		sgroups=" -G $subgroups"
+	else
+		sgroups=""
+	fi  
 	groupadd -f $group
 	if [[ -n $directory ]]; then dir=" -d $directory";else dir=""; fi
 	if [[ $passw != "none" ]]; then password=" -p $passw"; else password=""; fi
 	if [[ -n $sh ]]; then shell=" -s $sh";else shell=""; fi
-	command="-g $group -G $subgroups $dir $password $shell $uname"
+	command="-g $group $sgroups $dir $password $shell $uname"
 	useradd $command 
 	if [[ $? -eq 0 ]];then echo "user $uname was added!";fi
 }
